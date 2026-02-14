@@ -52,7 +52,7 @@ function Navbar() {
             <a href="#community" className="text-gray-300 hover:text-white transition-colors">Community</a>
             <a href="#download" className="text-gray-300 hover:text-white transition-colors">Download</a>
             <a 
-              href="https://github.com/repairai/repairai" 
+              href="https://github.com/kazemcodes/RepairAi" 
               target="_blank"
               className="flex items-center space-x-2 bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded-lg transition-colors"
             >
@@ -130,7 +130,7 @@ function Hero() {
               <span>Download Free</span>
             </a>
             <a 
-              href="https://github.com/repairai/repairai"
+              href="https://github.com/kazemcodes/RepairAi"
               target="_blank"
               className="flex items-center space-x-2 bg-gray-800 hover:bg-gray-700 px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
             >
@@ -344,7 +344,7 @@ function Community() {
             
             <div className="mt-8 flex items-center space-x-4">
               <a 
-                href="https://github.com/repairai/repairai"
+                href="https://github.com/kazemcodes/RepairAi"
                 target="_blank"
                 className="flex items-center space-x-2 bg-gray-800 hover:bg-gray-700 px-6 py-3 rounded-xl transition-colors"
               >
@@ -383,7 +383,7 @@ function Community() {
 }
 
 // Download Section
-function Download() {
+function DownloadSection() {
   return (
     <section id="download" className="py-24 bg-gradient-to-b from-dark-900 to-dark-950">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -466,7 +466,7 @@ function Download() {
         
         <p className="text-center text-gray-500 mt-8">
           Or download from GitHub Releases → 
-          <a href="https://github.com/repairai/repairai/releases" className="text-blue-400 hover:underline ml-1">
+          <a href="https://github.com/kazemcodes/RepairAi/releases" className="text-blue-400 hover:underline ml-1">
             View Releases
             <ExternalLink className="w-4 h-4 inline ml-1" />
           </a>
@@ -506,7 +506,7 @@ function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Community</h4>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="https://github.com/repairai/repairai" className="hover:text-white transition-colors">GitHub</a></li>
+              <li><a href="https://github.com/kazemcodes/RepairAi" className="hover:text-white transition-colors">GitHub</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Discord</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Telegram</a></li>
             </ul>
@@ -525,7 +525,7 @@ function Footer() {
         <div className="border-t border-dark-800 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between">
           <p className="text-gray-500">© 2026 RepairAI. Open source under MIT license.</p>
           <div className="flex items-center space-x-4 mt-4 md:mt-0">
-            <a href="https://github.com/repairai/repairai" className="text-gray-400 hover:text-white transition-colors">
+            <a href="https://github.com/kazemcodes/RepairAi" className="text-gray-400 hover:text-white transition-colors">
               <Github className="w-6 h-6" />
             </a>
             <Globe className="w-6 h-6 text-gray-400" />
@@ -545,7 +545,7 @@ export default function Home() {
       <Features />
       <HowItWorks />
       <Community />
-      <Download />
+      <DownloadSection />
       <Footer />
     </main>
   )
